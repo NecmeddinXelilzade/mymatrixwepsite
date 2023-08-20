@@ -1,0 +1,45 @@
+
+.card{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--bg-two-color);
+    color: var(--text-color);
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.contend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.data{
+    font-size: 20px;
+    
+}
+
+.container{
+    --bg-color:#282828;
+}
+hr{
+    width: 100%;
+    border-top: 1px solid black;
+}
+

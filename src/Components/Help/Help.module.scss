@@ -1,0 +1,20 @@
+.container{
+    width: 1260px;
+    // height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.question{
+    margin-top: 25px;
+}

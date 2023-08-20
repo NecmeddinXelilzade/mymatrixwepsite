@@ -1,0 +1,15 @@
+.left{
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Fraunces', serif;
+    justify-content: center;
+}
+
+.items{
+     margin: 0 20px;  
+}
+ 
+a{
+    text-decoration: none;
+    color: black;
+}

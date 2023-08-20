@@ -1,0 +1,21 @@
+.img{
+/* padding: 20px; */
+}
+
+.contend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin: 40px 0;
+     font-family: 'Bebas Neue', sans-serif;
+}
+
+.contend:hover{
+    background-color: white;
+    box-shadow:  0 6px 3px #000000;
+    cursor: pointer;
+}
+
+.contend_h{
+    padding-top: 10px;
+}
