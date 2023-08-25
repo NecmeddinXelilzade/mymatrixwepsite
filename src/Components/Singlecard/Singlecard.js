@@ -1,24 +1,34 @@
 import React from 'react';
 import styles from './Singlecard.module.css'
+import { useCart } from 'react-use-cart';
+import { toast } from "react-toastify";
+import WishlistBtn from '../WishlishBtn/wishlistBtn';
 
 const Singlecard = ({product}) => {
+
+
+  const{addItem}=useCart()
     return (
         <>
-      <div className="col-lg-3  col-md-4 col-sm-6 col-12 p-3" >
-      <div className="card" style={{width: '100%', height:"100%"}}>
-        <img src={product.image} className="card-img-top" alt="..." />
-        <div className="card-body">
+       <div  className="card" style={{width: '100%', height:"100%",position:"relative"}}>
+        <img src={product.image}  className="card-img-top" alt="..." />
+        <div className="card-body" >
           <h5 className="card-title">{product.title}</h5>
           <p className="card-text">
             <div className={styles.context}>
                <div>Price: {product.price}  </div>
                 <div>Catageory: {product.catageory}</div>
             </div>
-   
           </p>
-          <a href="#" className="btn btn-primary">Go somewhere</a>
+          <button className="btn btn-success" onClick={()=>{
+              addItem(product)
+              toast.success('Product added successfully')
+            }}>Add to cart</button>
+          <div  className={styles.abs}>
+            <WishlistBtn oturduyumMehsul={product}/>
+          </div>
+         
         </div>
-      </div>
       </div>
         </>
     );

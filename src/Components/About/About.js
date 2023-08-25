@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Account = () => {
+const About = () => {
     return (
         <div>
-            ac
+            abouttt
         </div>
     );
 }
 
-export default Account;
+export default About;
+

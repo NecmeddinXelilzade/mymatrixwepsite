@@ -23,7 +23,7 @@
     {
         "id":1,
         "title":'BENT DUBLIN',
-        "price":'€136.00',
+        "price":136.00,
         "catageory":'ACCESSORIES',
         "description":'It is a temporary time or official debit or product that is re-claimed.',
         "image":img1,

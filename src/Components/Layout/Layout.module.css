@@ -1,15 +1,30 @@
 .left{
     display: flex;
-    margin-top: 10px;
     font-family: 'Fraunces', serif;
     justify-content: center;
+    margin-top: 15px;
+}
+
+.right{
+    display: flex;
+    font-family: 'Fraunces', serif;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .items{
-     margin: 0 20px;  
+     margin: 0 10px;  
 }
  
 a{
     text-decoration: none;
     color: black;
+}
+
+.fixed{
+    position: fixed;
+}
+
+a:hover{
+    color: red;
 }

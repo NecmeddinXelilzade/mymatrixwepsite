@@ -1,12 +1,10 @@
-.img{
-/* padding: 20px; */
-}
+
 
 .contend{
     display: flex;
     align-items: center;
     justify-content: center;
-     margin: 40px 0;
+     margin: 20px 0;
      font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -19,3 +17,4 @@
 .contend_h{
     padding-top: 10px;
 }
+

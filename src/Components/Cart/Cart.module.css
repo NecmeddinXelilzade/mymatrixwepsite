@@ -1,0 +1,22 @@
+.bynow{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.cartsec{
+    /* width: 100%;
+    height: 70vh; */
+}
+
+.btn{
+    margin: 0 7px;
+    width: 30px;
+    border: solid 2;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+
+.cartsize{
+    font-size: 25px;
+}

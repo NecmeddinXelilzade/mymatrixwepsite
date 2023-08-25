@@ -1,52 +1,140 @@
-import React from 'react';
-import styles from './Help.module.scss'
+import React from "react";
+import styles from "./Help.module.scss";
 
 const Help = () => {
-    return (
-        <div>
-        <div className={styles.container}>
-        <h1>Tez-Tez Verilən Suallar və Cavabları</h1>
-            <div>
-            <div  className={styles.cart} >
-                <h3 className={styles.question}>
-                    1.Sizdən hissəli ödənişlə məhsul almaq mümkündür?
-                </h3>
-               
-                <span>Bəli, siz məhsulları 24 ayadək hissəli ödəniş şərtlərilə əldə edə bilərsiniz. Əksər məhsullar 18 ayadək faizsiz hissəli ödəniş şərtlərilə, ilkin ödənişsiz, iş yerindən arayış tələb olunmadan təqdim olunur.</span>
+  return (
+    <>
+      <section>
+        <div className="container mt-5">
+          <div className="row">
+            <div
+              className="accordion accordion-flush"
+              id="accordionFlushExample"
+            >
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                       1.What is the online delivery time?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div className="accordion-body">
+                  Currently, delivery is available to any address across the country (except Nakhchivan MR). For more information, you can call the short number *3363 or write to our whatsapp number
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    2.In which currency is the payment for the purchased goods calculated?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div className="accordion-body">
+                  Payment of all products purchased from Plamen stores in cash or in installments is calculated only in the national currency of the Republic of Azerbaijan - Azerbaijani manat (AZN).
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                   3.How many days will the ordered product be delivered?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div className="accordion-body">
+                  Within 10-15 days depending on the address
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                   4.Can I return the product if I don't like it?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div className="accordion-body">
+                  You can return it if it's not opened
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                   3.How many days will the ordered product be delivered?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div className="accordion-body">
+                  Within 10-15 days depending on the address
+                  </div>
+                </div>
+              </div>
+ 
+
             </div>
-
-            <div  className={styles.cart} >
-                <h3 className={styles.question} >2.Alınan malın ödənişi hansı valyuta ilə hesablanır?</h3>
-                <span>NS'hopping mağazalarından istər nağd, istərsə də hissəli ödənişlə əldə olunan bütün məhsulların ödənişi yalnız Azərbaycan Respublikasının milli valyutası – Azərbaycan manatı (AZN) ilə hesablanır.</span>
-            </div>
-
-            <div  className={styles.cart} >
-                <h3 className={styles.question}>3.Onlayn sifariş hansı şəhərlərdə keçərlidir?</h3>
-                <span>Hazırda ölkədaxili istənilən ünvana (Naxçıvan MR istisna) çatdırılmamız var. Ətraflı məlumat almaq üçün *3333 qısa nömrəsinə zəng edə və ya 050 8819349 whatsapp nömrəmizə yaza bilərsiniz.</span>
-            </div>
-
-
-            <div  className={styles.cart} >
-                <h3 className={styles.question}>4.Çatdırılma ödənişsiz həyata keçirilir?</h3>
-                <span>Planlaşdırılmış çatdırılma:50 AZN-dək bir sifarişin məbləği – 3 AZN təşkil edir.
-                  Sifarişin məbləği 50 AZN-dən yuxarı olduqda – çatdırılma xidməti pulsuzdur. 
-                  Qeyd olunan rayonlar istisna olmaqla: Sabirabad, Saatlı, İmişli, Şamaxı, Qobustan, Hacıqabul, Şirvan. Bu rayonlara pulsuz çatdırılma yalnız Azərpoçt xidmətlərinin köməyi ilə həyata keçirilir.
-                  Ekspress çatdırılma qiyməti – 19.99 AZN təşkil edir.
-                  Ətraflı məlumat üçün “Ödəniş və Çatdırılma” bölməsində qeyd olunan ətraflı məlumatla tanış ola bilərsiniz.</span>
-            </div>
-
-
-            <div  className={styles.cart} >
-                <h3 className={styles.question}>5.Məhsulu bəyənməsəm geri qaytara bilərəm?</h3>
-                <span>NS'hopping  mağazalarından əldə etdiyiniz məhsulu alınma günü nəzərə alınmamaq şərti ilə, 14 təqvim günü ərzində dəyişdirə və ya qaytara bilərsiniz. Məhsul istifadə edilməyibsə, əmtəə görünüşü pozulmayıbsa, komplektasiyası tamdırsa və satış qəbzi mövcuddursa, geri qaytarılması mümkündür.</span>
-            </div>
-
-            </div>
-
-
+          </div>
         </div>
-    </div>
-    );
-}
+      </section>
+    </>
+  );
+};
 
 export default Help;
+
