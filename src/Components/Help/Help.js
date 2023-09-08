@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Help.module.scss";
+import Plamen from "../Plamen/Plamen";
+import faq from "../../Assets/image/faq.jpg";
+import { useTranslation } from "react-i18next";
 
 const Help = () => {
+
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
-      <section>
+      <section className={styles.theme} >
+      <img className={styles.img} src={faq} alt="" />
+        <div className={styles.faq}>
         <div className="container mt-5">
           <div className="row">
             <div
@@ -21,7 +33,7 @@ const Help = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseOne"
                   >
-                       1.What is the online delivery time?
+                       {t("faq.0")}
                   </button>
                 </h2>
                 <div
@@ -30,7 +42,7 @@ const Help = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
-                  Currently, delivery is available to any address across the country (except Nakhchivan MR). For more information, you can call the short number *3363 or write to our whatsapp number
+                  {t("faq.1")}
                   </div>
                 </div>
               </div>
@@ -44,7 +56,7 @@ const Help = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    2.In which currency is the payment for the purchased goods calculated?
+                    {t("faq.2")}
                   </button>
                 </h2>
                 <div
@@ -53,7 +65,7 @@ const Help = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
-                  Payment of all products purchased from Plamen stores in cash or in installments is calculated only in the national currency of the Republic of Azerbaijan - Azerbaijani manat (AZN).
+                  {t("faq.3")}
                   </div>
                 </div>
               </div>
@@ -67,7 +79,7 @@ const Help = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                   3.How many days will the ordered product be delivered?
+                    {t("faq.4")}
                   </button>
                 </h2>
                 <div
@@ -76,7 +88,7 @@ const Help = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
-                  Within 10-15 days depending on the address
+                  {t("faq.5")}
                   </div>
                 </div>
               </div>
@@ -90,7 +102,7 @@ const Help = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                   4.Can I return the product if I don't like it?
+                    {t("faq.6")}
                   </button>
                 </h2>
                 <div
@@ -99,7 +111,7 @@ const Help = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
-                  You can return it if it's not opened
+                  {t("faq.7")}
                   </div>
                 </div>
               </div>
@@ -113,7 +125,7 @@ const Help = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                   3.How many days will the ordered product be delivered?
+                 {t("faq.4")}
                   </button>
                 </h2>
                 <div
@@ -122,7 +134,7 @@ const Help = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
-                  Within 10-15 days depending on the address
+                  {t("faq.5")}
                   </div>
                 </div>
               </div>
@@ -131,6 +143,9 @@ const Help = () => {
             </div>
           </div>
         </div>
+
+        </div>
+       <Plamen/>
       </section>
     </>
   );

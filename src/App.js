@@ -1,11 +1,15 @@
 import Router from "./Components/Router/Router";
+import { ThemeProvider } from "./Context/Themecontext";
 
 function App() {
   return (
-    <div>
-      <Router />
-    </div>
+    <>
+      <ThemeProvider>
+        <Router />
+      </ThemeProvider>
+    </>
   );
 }
 
 export default App;
+

@@ -1,0 +1,47 @@
+{
+    "header":{
+      "0":"Home",
+      "1":"About",
+      "2":"Shop",
+      "3":"Blog",
+      "4":"FAQ"
+    },
+
+    "singlecard":{
+      "0":"Price",
+      "1":"Catageory"
+    },
+    "home":{
+      "0":"OUR BELOVED PRODUCTS",
+      "1":"Try them out right now",
+      "2":"WORKING HOURS",
+      "3":"The customer should be very happy, such a test in the fact that when one is foreign to, our problem has been established.",
+      "4":"WORKDAYS",
+      "5":"SATURDAY",
+      "6":"SUNDAY",
+      "7":"Designed for people whose palate craves something special, as well as for everyone looking for the perfect way to create their captivating new tobacco store website.",
+      "8":"Closed"
+    },
+    "about":{
+      "0":"TOBACCO. LIFESTYLE CONCEPT",
+      "1":"Even CNN. Patronage time, the place needs CNN's sauce, the ever-free salad, not the salad itself, but the teaching of the salad. Good customer service is important to have a customer service provider. Aeneas needs pain for happiness. Jasmine mass. With the companions of the subject and born with a feather and a big push, mountains will be born, a funny mouse will be born. except Curabitur ullamcorper ultricies. Because God needs it. Even CNN. Mesenat time, the place needs rhonkus sauce, free as always, let it be not only fatty, but also first."
+    },
+    "faq":{
+      "0":" 1.What is the online delivery time?",
+      "1":"Currently, delivery is available to any address across the country (except Nakhchivan MR). For more information, you can call the short number *3363 or write to our whatsapp number",
+      "2":"2.In which currency is the payment for the purchased goods calculated?",
+      "3":"   Payment of all products purchased from Plamen stores in cash or in installments is calculated only in the national currency of the Republic of Azerbaijan - Azerbaijani manat (AZN).",
+      "4":"   3.How many days will the ordered product be delivered?",
+      "5":"  Within 10-15 days depending on the address",
+      "6":" 4.Can I return the product if I don't like it?",
+      "7":" You can return it if it's not opened"
+    },
+    "blog":{
+      "0":"It is important to take care of the patient, to follow the patient, but there will be a time when there is a lot of work and pain. Because, if we come down to the smallest detail, no one should do anything unless he gets some benefit. In duis or irritating pain he wants to take punishments in pleasure, to be a hair of pain eu avoids mating unless he is blinded by lust",
+      "1":"Paranoids are not paranoid because they're paranoid, but because they keep putting themselves, fucking idiots, deliberately into paranoid situations.",
+      "3":"BOX OF PREMIUM CIGARS",
+      "2":"TOBACCO. LIFESTYLE CONCEPT",
+      "4":"THE BEST CIGAR STORAGE",
+      "5":"HOW TO KEEP CIGARS FRESH?"
+    }
+}

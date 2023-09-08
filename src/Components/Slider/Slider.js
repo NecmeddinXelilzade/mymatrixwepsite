@@ -16,7 +16,7 @@ import styles from './Slider.module.css'
 const Slider = () => {
   return (
     <>
-     <div  className={styles.sip} >
+     <div  className={styles.swip} >
      <Swiper className={styles.swip}
       // install Swiper modules
       modules={[Navigation, Pagination, A11y,Autoplay]}

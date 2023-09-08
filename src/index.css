@@ -5,10 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #dfdedd;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.light {
+  --bgColor: #F9F5F6;
+  --textColor: black;
+}
+
+.dark {
+  --bgColor: #1A1A2E;
+  --textColor: white;
+}
+
+
+
+.card-img-top {
+  transition: all 0.7s ease;
+  &:hover {
+    transform: scale(1.3);
+  }
 }

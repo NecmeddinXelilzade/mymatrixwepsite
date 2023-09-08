@@ -5,8 +5,14 @@
 }
 
 .cartsec{
-    /* width: 100%;
-    height: 70vh; */
+ padding-top: 200px;
+}
+
+.theme{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgColor);
+    color: var(--textColor);
 }
 
 .btn{
@@ -14,9 +20,21 @@
     width: 30px;
     border: solid 2;
     border-radius: 10px;
-    background-color: yellowgreen;
+    background-color: gold;
 }
 
 .cartsize{
     font-size: 25px;
+}
+
+@media (max-width:770px) {
+    .cartsize{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1000px) {
+    .cartsize{
+        font-size: 18px;
+    }
 }

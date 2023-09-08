@@ -9,22 +9,26 @@ section{
   }
 
   .link{
-    color: gray;
+    margin: 10px 0;
+  }
+
+  .link:hover{
+    color: red;
+  }
+
+  .footer{
+    background-color:#03001C ;
+    color: white;
   }
   
   
-  .footer_hrTag{
-    width: 90%;
-    margin: auto;
-    margin-top: 120px;
-    margin-bottom:40px;
-  };
+ 
   
   .footer_last_hrTag{
     width: 90%;
     margin: auto;
-    margin-bottom: 30px;
-    margin-top:40px;
+    margin-bottom: 20px;
+    margin-top:20px;
   }
   .footerBoldLink{
     font-weight: 500;
@@ -47,15 +51,62 @@ section{
   
   .webLinks{
     margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    color: white
   };
   
   .footerBoldItems{
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
   };
+
+
+
   
+.footer{
   p{
     color: grey;
   }
-  
+}
 
-  
+.footer{
+  a{
+    color: grey;
+  }
+}
+
+
+.rightimg{
+  margin-bottom: 10px;
+}
+
+.images{
+  width: 300px;
+  height: 30px;
+}
+
+
+
+@media (max-width:750px) {
+  .footer{
+       font-size: 11px;
+  }
+}
+
+
+@media (max-width:850px) {
+  .footer{
+       font-size: 12px;
+  }
+}
+
+
+@media (max-width:750px) {
+  .footer_last_hrTag{
+       margin-top: 0;
+       margin-bottom: 0;
+  }
+}
